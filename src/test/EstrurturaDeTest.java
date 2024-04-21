@@ -66,8 +66,8 @@ public class EstrurturaDeTest {
         assertEquals(3, e.maximo());
         assertEquals(0, e.minimo());
         e.insereElemento(10);
-        e.insereElemento(-10);
-        assertEquals(10, e.maximo());
+        e.insereElemento(-10);        assertEquals(10, e.maximo());
+
         assertEquals(-10, e.minimo());
     }
 }
